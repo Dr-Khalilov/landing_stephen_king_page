@@ -4,5 +4,5 @@ RUN apt-get update
 RUN apt-get install -y nginx
 COPY . /var/www/html/
 EXPOSE 80
-ENTRYPOINT ["nginx","-g","daemon off;"]
+CMD ["nginx","-g","daemon off;"]
 
