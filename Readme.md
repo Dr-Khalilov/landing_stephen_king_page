@@ -1,1 +1,0 @@
-TO RUN THE PROJECT JUST RUN ./run.sh

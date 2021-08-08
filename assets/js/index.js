@@ -16,7 +16,7 @@ const showSlides = num => {
     }
 
     slides.forEach((slide) => slide.style.display = 'none');
-    images.forEach((image, index) => {
+    images.forEach((image) => {
         image.className = image.className.replace("active", "");
     })
 
