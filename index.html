@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="./assets/css/style.css" rel="stylesheet"/>
     <title>Best writer</title>
 </head>
 <body>
@@ -13,11 +13,11 @@
         <a class="nav-link" href="https://en.wikipedia.org/wiki/Stephen_King" target="_blank">
             <span class="page-logo">Stephen King</span></a>
         <ul class="nav-list">
-            <li class="nav-item"><a href="#bio" class="nav-link">Biography </a></li>
-            <li class="nav-item"><a href="#time" class="nav-link">Timeline </a></li>
-            <li class="nav-item"><a href="#gal" class="nav-link">Gallery </a></li>
-            <li class="nav-item"><a href="#phrase" class="nav-link">Top catch phrases </a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link">Contacts </a></li>
+            <li class="nav-item"><a class="nav-link" href="#bio">Biography </a></li>
+            <li class="nav-item"><a class="nav-link" href="#time">Timeline </a></li>
+            <li class="nav-item"><a class="nav-link" href="#gal">Gallery </a></li>
+            <li class="nav-item"><a class="nav-link" href="#phrase">Top catch phrases </a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contacts </a></li>
         </ul>
     </nav>
 </header>
@@ -26,9 +26,9 @@
     <div class="bio-row">
         <div class="img-wrapper">
             <img
+                    alt="King"
                     class="img-author"
                     src="/assets/images/stephen-king.jpg"
-                    alt="King"
             />
         </div>
         <div class="picture-text">
@@ -274,80 +274,80 @@
 <section class="gallery" id="gal">
     <div class="slides">
         <p class="number-text">1 / 6</p>
-        <img src="/assets/images/1.jpg" alt="King" class="gal-styles"/>
+        <img alt="King" class="gal-styles" src="/assets/images/1.jpg"/>
     </div>
     <div class="slides">
         <p class="number-text">2 / 6</p>
-        <img src="/assets/images/2.jpg" alt="Tower" class="gal-styles"/>
+        <img alt="Tower" class="gal-styles" src="/assets/images/2.jpg"/>
     </div>
     <div class="slides">
         <p class="number-text">3 / 6</p>
-        <img src="/assets/images/3.jpg" alt="King&Books" class="gal-styles"/>
+        <img alt="King&Books" class="gal-styles" src="/assets/images/3.jpg"/>
     </div>
     <div class="slides">
         <p class="number-text">4 / 6</p>
-        <img src="/assets/images/4.jpg" alt="Horrors" class="gal-styles"/>
+        <img alt="Horrors" class="gal-styles" src="/assets/images/4.jpg"/>
     </div>
     <div class="slides">
         <p class="number-text">5 / 6</p>
-        <img src="/assets/images/5.jpeg" alt="Books" class="gal-styles"/>
+        <img alt="Books" class="gal-styles" src="/assets/images/5.jpeg"/>
     </div>
     <div class="slides">
         <p class="number-text">6 / 6</p>
-        <img src="/assets/images/6.jpg" alt="Love" class="gal-styles"/>
+        <img alt="Love" class="gal-styles" src="/assets/images/6.jpg"/>
     </div>
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
     <div class="caption-container">
         <p id="caption"></p>
     </div>
     <div class="row">
         <div class="column">
             <img
-                    class="demo cursor"
-                    src="/assets/images/1.jpg"
-                    onclick="currentSlide(1)"
                     alt="The King"
+                    class="demo cursor"
+                    onclick="currentSlide(1)"
+                    src="/assets/images/1.jpg"
             />
         </div>
         <div class="column">
             <img
-                    class="demo cursor"
-                    src="/assets/images/2.jpg"
-                    onclick="currentSlide(2)"
                     alt="The Dark Tower"
+                    class="demo cursor"
+                    onclick="currentSlide(2)"
+                    src="/assets/images/2.jpg"
             />
         </div>
         <div class="column">
             <img
-                    class="demo cursor"
-                    src="/assets/images/3.jpg"
-                    onclick="currentSlide(3)"
                     alt="The King's books"
+                    class="demo cursor"
+                    onclick="currentSlide(3)"
+                    src="/assets/images/3.jpg"
             />
         </div>
         <div class="column">
             <img
-                    class="demo cursor"
-                    src="/assets/images/4.jpg"
-                    onclick="currentSlide(4)"
                     alt="The King popular books"
+                    class="demo cursor"
+                    onclick="currentSlide(4)"
+                    src="/assets/images/4.jpg"
             />
         </div>
         <div class="column">
             <img
-                    class="demo cursor"
-                    src="/assets/images/5.jpeg"
-                    onclick="currentSlide(5)"
                     alt="The King collection books"
+                    class="demo cursor"
+                    onclick="currentSlide(5)"
+                    src="/assets/images/5.jpeg"
             />
         </div>
         <div class="column">
             <img
-                    class="demo cursor"
-                    src="/assets/images/6.jpg"
-                    onclick="currentSlide(6)"
                     alt="The King loves books"
+                    class="demo cursor"
+                    onclick="currentSlide(6)"
+                    src="/assets/images/6.jpg"
             />
         </div>
     </div>
@@ -393,6 +393,6 @@
         </li>
     </ul>
 </footer>
-<script defer src="assets/js/functions.js"></script>
+<script defer src="assets/js/index.js"></script>
 </body>
 </html>
