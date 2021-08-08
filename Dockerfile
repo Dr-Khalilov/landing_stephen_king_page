@@ -1,7 +1,7 @@
-FROM ubuntu:21.10
+FROM nginx:1.21.1-alpine
 MAINTAINER ERMASTER100@gmail.com
-RUN apt-get update
-RUN apt-get install -y nginx
-COPY . /var/www/html/
+COPY default.conf.template /etc/nginx/conf.d/default.conf.template
+COPY static-html-css-js /usr/share/nginx/html
 EXPOSE 80
-CMD ["nginx","-g","daemon off;"]
+ENTRYPOINT ["nginx","-g","daemon off;"]
+CMD /bin/bash -c "envsubst '\$PORT' < /etc/nginx/conf.d/default.conf.template > /etc/nginx/conf.d/default.conf"
