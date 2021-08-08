@@ -10,11 +10,3 @@
   ],
   "stack": "container"
 }
-
-{
-  "formation": {
-    "web": {
-      "size": "free"
-    }
-  }
-}
