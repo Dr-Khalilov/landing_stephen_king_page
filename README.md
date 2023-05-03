@@ -1,6 +1,6 @@
 ## This landing page about Stephen King!
 
-## Deployed host
+## Link to static site
 
 ```http request
 https://umar-khalilov.github.io/stephen-king.github.io/
